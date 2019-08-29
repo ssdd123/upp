@@ -82,7 +82,7 @@ function submitNewArticle() {
 		contentType: "application/json",
 		data: JSON.stringify(newArt),
 		success: function(data) {
-			alert('wfcw')
+			alert('submitted')
 		},
         error: function (jqXHR, textStatus, errorThrown) {
         	alert(errorThrown)
