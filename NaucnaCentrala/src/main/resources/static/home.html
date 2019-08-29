@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Home</title>
+		<script src="scripts/jquery-3.3.1.min.js"></script>
+		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="homeStyle/css/myStyle.css">
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="scripts/homeReady.js"></script>
+        <script src="scripts/homeRender.js"></script>
+        <script src="scripts/homeTabs.js"></script>
+        <script src="scripts/homeData.js"></script>
+        <script src="scripts/homeRenderData.js"></script>
+        <script src="scripts/login.js"></script>
+        <script src="scripts/newArticle.js"></script>
+	</head>
+	<body>
+		<ul class="nav nav-tabs" role="tablist" id="homeTabs">
+		  <li class="nav-item"><a id="t1-tab" class="nav-link active" data-toggle="tab" role="tab" href="#t1" aria-selected="true">Home</a></li>
+		  <li class="nav-item"><a id="t2-tab" class="nav-link" data-toggle="tab" role="tab" href="#t2">Profile</a></li>
+		  <li class="nav-item"><a id="t3-tab" class="nav-link" data-toggle="tab" role="tab" href="#t3">Messages</a></li>
+		</ul>
+			
+	<div >
+	<div class="tab-content homeDiv" id="homeContent">
+		<div class="tab-pane fade show active" id="t1" role="tabpanel" aria-labelledby="t1-tab">t1</div>
+		<div class="tab-pane fade" id="t2" role="tabpanel" aria-labelledby="t2-tab">t2</div>
+		<div class="tab-pane fade" id="t3" role="tabpanel" aria-labelledby="t3-tab">t3</div>
+	</div>
+	</div>
+	</body>
+</html>
